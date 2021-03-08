@@ -1,6 +1,6 @@
 package lab_ex
 
-object Ex_2b {
+object Ex2bFunction {
   //ex4
   //curriedFunType
   // p1: =

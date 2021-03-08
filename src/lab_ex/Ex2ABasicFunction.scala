@@ -1,6 +1,6 @@
 package lab_ex
 
-object Ex_2A extends App {
+object Ex2ABasicFunction extends App {
   //WARM-UPEVEN ODD (Integer->Boolean)
   def evenTypesMethod(d1: Integer): Boolean = d1 % 2 == 0
   //println("Even types method " + evenTypesMethod(7))

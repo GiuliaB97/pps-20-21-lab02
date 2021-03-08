@@ -2,7 +2,7 @@ package lab_ex
 
 import scala.annotation.tailrec
 
-object Ex3_recursion {
+object Ex3Recursion {
   //ricorsione NOT tail
   def fib(n:Int): Int={
     case 0 | 1 => n

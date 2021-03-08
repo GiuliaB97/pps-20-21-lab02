@@ -1,9 +1,9 @@
 package u02
 
-import lab_ex.Ex_2A
+import lab_ex.Ex2ABasicFunction
 import org.junit.jupiter.api.Assertions.{assertEquals, assertFalse, assertTrue}
 import org.junit.jupiter.api.Test
-import Ex_2A.parityMethod
+import Ex2ABasicFunction.parityMethod
 
 class TestEx {
   @Test def testNeg(){
