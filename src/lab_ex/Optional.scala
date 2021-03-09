@@ -1,6 +1,6 @@
 package lab_ex
 
-object Ex5Optional {
+object Optional {
   sealed trait Option[A] // An Optional data type
   object Option {
     case class None[A]() extends Option[A]
@@ -20,22 +20,25 @@ object Ex5Optional {
       case Some(a) => f(a)
       case _ => None()
     }
-
-    /*def filter[A](opt: Option[A])(predicate:A=>Boolean):Option[A]=flatMap( match{
-      case elem if(predicate(elem)) => Some(elem)
+/*
+ef filter[A](opt: Option[A])(predicate: A => Boolean): Option[A] = opt match {
+      case Some(a) if predicate(a) => opt
+      case _ => None()
+    }
+ */
+    def filter[A](opt: Option[A])(predicate: A => Boolean): Option[A]= opt match{
+      case Some(a) if predicate(a) => opt
       case _ => None()
     }
 
-    def map[A,B](opt: Option[A])(f:A => Option[B]): Option[B] = opt match {
-      case elem if(predicate(elem)) =>Some(a)
+    def map[A,B](opt: Option[A])(f: A => B): Option[B] = opt match {
+      case Some(a) => Some(f(a))
       case _ => None()
     }
 
-    def map2[A,B](opt: Option[A])(f:A => Option[B]): Option[B] = opt match {
-      case elem if(predicate(elem)) =>Some(a)
+    def map2[A,B, C](opt1: Option[A])(opt2: Option[B])(f: (A,B) => C): Option[C] = (opt1,opt2) match {
+      case (Some(a),Some(b))  => Some(f(a,b))
       case _ => None()
     }
-    */
-
   }
 }

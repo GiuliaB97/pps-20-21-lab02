@@ -1,6 +1,6 @@
-package u02
-import lab_ex.Shapes
-import lab_ex.Shapes.Shape.{Circle, Rectangle, Square, area, perimeter}
+package u02.exercises
+
+import lab_ex.Shapes.Shape._
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 

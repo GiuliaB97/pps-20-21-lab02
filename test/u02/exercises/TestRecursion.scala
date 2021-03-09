@@ -1,6 +1,5 @@
-package u02
+package u02.exercises
 
-import lab_ex.Composition.composeMethodGeneric
 import lab_ex.Recursion.{fib, fib_tail}
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test

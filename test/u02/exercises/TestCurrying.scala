@@ -1,8 +1,7 @@
-package u02
+package u02.exercises
 
 import lab_ex.Currying.{p1, p2, p3, p4}
-import lab_ex.Parity.parityFunction
-import org.junit.jupiter.api.Assertions.{assertEquals, assertFalse, assertTrue}
+import org.junit.jupiter.api.Assertions.{assertFalse, assertTrue}
 import org.junit.jupiter.api.Test
 
 class TestCurrying {

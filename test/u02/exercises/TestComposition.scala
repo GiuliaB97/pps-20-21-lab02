@@ -1,13 +1,8 @@
-package u02
+package u02.exercises
 
-import lab_ex.Composition.{composeMethod, composeMethodGeneric}
-import lab_ex.Currying.{p1, p2, p3, p4}
-import lab_ex.Parity.parityMethod
-import org.junit.jupiter.api.Assertions.{assertEquals, assertFalse, assertNotEquals, assertTrue}
+import lab_ex.Composition.composeMethodGeneric
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import u02.DefinedFunctions.factorial
-
-import java.lang.module.ModuleFinder.compose
 
 class TestComposition {
   @Test def testComposeMethod(){

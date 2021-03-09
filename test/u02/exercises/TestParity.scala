@@ -1,7 +1,7 @@
-package u02
+package u02.exercises
 
 import lab_ex.Parity.{parityFunction, parityMethod}
-import org.junit.jupiter.api.Assertions.{assertEquals, assertFalse, assertTrue}
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 class TestParity {

@@ -1,7 +1,7 @@
-package u02
+package u02.exercises
 
-import lab_ex.NegPredicate.{containSubstringMethod, emptyFunction, negFunction, negMethod, negMethodGenerics}
-import org.junit.jupiter.api.Assertions.{assertEquals, assertFalse, assertTrue}
+import lab_ex.NegPredicate.{emptyFunction, negFunction, negMethod, negMethodGenerics}
+import org.junit.jupiter.api.Assertions.{assertFalse, assertTrue}
 import org.junit.jupiter.api.Test
 
 class TestNegPredicate {
