@@ -1,7 +1,8 @@
 package lab_ex
 
 object Shapes {
-  sealed trait Shape {
+  sealed trait Shape
+  object Shape{
 
     case class Rectangle(long_side: Int, short_side: Int) extends Shape
 

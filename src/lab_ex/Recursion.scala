@@ -2,7 +2,7 @@ package lab_ex
 
 import scala.annotation.tailrec
 
-object Ex3Recursion {
+object Recursion {
   //ricorsione NOT tail
   def fib(n:Int): Int= n match{
     case 0 | 1 => n
@@ -10,9 +10,8 @@ object Ex3Recursion {
   }
 @tailrec
   def fib_tail(n:Int, a:Int, b:Int): Int = n match{
-    case 0 | 1 => n
-    case _ => fib_tail( n-1 , a, a+b)
+    case 0 => a
+    case 1 => b
+    case _ => fib_tail( n-1 , b, a+b)
   }
-
-  //fib_tail (n, 0, 1)
 }
