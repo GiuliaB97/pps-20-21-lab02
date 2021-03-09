@@ -1,5 +1,5 @@
 package lab_ex
 
-object Ex1HelloWorld extends App {
+object HelloWorld extends App {
   println("Hello Scala!")
 }
