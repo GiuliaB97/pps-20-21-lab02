@@ -2,15 +2,15 @@ package lab_ex
 
 object Parity {
   //WARM-UPEVEN ODD (Integer->Boolean)
-  def evenTypesMethod(d1: Integer): Boolean = d1 % 2 == 0
+  //def evenTypesMethod(d1: Integer): Boolean = d1 % 2 == 0
   //println("Even types method " + evenTypesMethod(7))
 
-  def oddTypesMethod(d1: Integer): Boolean = !evenTypesMethod(d1)
+  //def oddTypesMethod(d1: Integer): Boolean = !evenTypesMethod(d1)
   //println("Odd types method " + oddTypesMethod(2))
 
-  val evenTypesFunction = (x: Int) => x % 2 == 0
+  //val evenTypesFunction = (x: Int) => x % 2 == 0
   //println("Even types function " + evenTypesFunction(2))
-  val oddTypesFunction = (x: Int) => !evenTypesFunction(x)
+  //val oddTypesFunction = (x: Int) => !evenTypesFunction(x)
   //println("Odd types function " + evenTypesFunction(2))
 
 

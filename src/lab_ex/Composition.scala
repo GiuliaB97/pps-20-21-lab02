@@ -5,8 +5,8 @@ curried and not curried fatte sulla base dell'ex di pag 27, ma non ci ho capito 
 object Composition {
 
   //WARM UP COMPOSITION
-  def simpleComposeMethod (f:Int=>Int, g:Int=>Int, x:Int)=f(g(x))
-  val simpleComposeFunction:(Int=>Int, Int=>Int, Int)=>Int=(f,g,x)=> f(g(x))
+  //def simpleComposeMethod (f:Int=>Int, g:Int=>Int, x:Int)=f(g(x))
+  //val simpleComposeFunction:(Int=>Int, Int=>Int, Int)=>Int=(f,g,x)=> f(g(x))
 
   //ex5: create function that implements functional compositions
   def composeMethod (f:Int=>Int, g:Int=>Int): Int=>Int=x=>f(g(x))
