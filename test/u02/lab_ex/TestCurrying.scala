@@ -1,4 +1,4 @@
-package u02.exercises
+package u02.lab_ex
 
 import lab_ex.Currying.{p1, p2, p3, p4}
 import org.junit.jupiter.api.Assertions.{assertFalse, assertTrue}

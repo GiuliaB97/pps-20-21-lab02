@@ -1,4 +1,4 @@
-package u02.exercises
+package u02.lab_ex
 
 import org.junit.jupiter.api.Assertions.{assertEquals, assertNotEquals}
 import org.junit.jupiter.api.Test
