@@ -1,7 +1,7 @@
 package lab_ex
 
 object Optional {
-  sealed trait Option[A] // An Optional data type
+  sealed trait Option[A]
   object Option {
     case class None[A]() extends Option[A]
     case class Some[A](a: A) extends Option[A]
@@ -20,12 +20,7 @@ object Optional {
       case Some(a) => f(a)
       case _ => None()
     }
-/*
-ef filter[A](opt: Option[A])(predicate: A => Boolean): Option[A] = opt match {
-      case Some(a) if predicate(a) => opt
-      case _ => None()
-    }
- */
+
     def filter[A](opt: Option[A])(predicate: A => Boolean): Option[A]= opt match{
       case Some(a) if predicate(a) => opt
       case _ => None()
