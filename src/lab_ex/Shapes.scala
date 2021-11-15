@@ -10,7 +10,6 @@ object Shapes {
 
     case class Square(side: Int) extends Shape
 
-    //non chiaro quando devo usare match o meno
     def perimeter(shape: Shape):Double = shape match{
       case Rectangle(long_side, short_side) => (long_side + short_side)*2
       case Circle(radius) => radius * 2 * math.Pi
