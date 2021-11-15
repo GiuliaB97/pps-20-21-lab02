@@ -1,12 +1,6 @@
 package lab_ex
 
 object Currying {
-  //ex4
-  //WARM-UP SUM ELEMENTS: RETURN RESULT
-  //val simpleNoCurryingFunction:(Int, Int)=>Int=(x,y)=> x+y
-  //def simpleNoCurryingMethod(x:Int, y:Int )= simpleNoCurryingFunction(x,y)
-  //val simpleCurryingFunction: Int => Int=> Int = x=>y=>simpleNoCurryingFunction(x,y)
-  //def simpleCurryingMethod(x:Int)=(y:Int)=> simpleNoCurryingFunction(x,y)
 
   //NotcurriedFunType
   val p1:(Int, Int, Int)=>Boolean = (x,y,z)=> (x<=y)&&(y<=z)
